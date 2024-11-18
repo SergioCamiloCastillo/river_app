@@ -14,6 +14,6 @@ class TodoEntity {
     return TodoEntity(
         id: id ?? this.id,
         description: description ?? this.description,
-        completeAt: completeAt ?? this.completeAt);
+        completeAt: completeAt);
   }
 }
